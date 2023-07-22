@@ -75,8 +75,7 @@ const Card = ({ numberRating, option, onClick, select }: Props) => {
       <td className={styles.details}>
         <div className={styles.nameContainer}>
           <p style={{ width: widthNameContainer }} className={styles.name}>
-            {option.name} {option.name} {option.name} {option.name} {option.name} {option.name}{' '}
-            {option.name} {option.name}
+            {option.name}
           </p>
         </div>
         <div className={styles.info}>
