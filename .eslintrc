@@ -1,0 +1,43 @@
+{
+  "extends": "memcrab",
+  "plugins": ["only-warn", "prettier"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "fondy": true,
+    "JSX": true
+  },
+  "rules": {
+    // прибираємо попередження на дублікат import react
+    "no-duplicate-imports": "off",
+    // попередження про імпорти типу
+    "@typescript-eslint/consistent-type-imports": "off",
+    // перша строка
+    "jsdoc/newline-after-description": "off",
+    // назви компонентів і т.д.
+    "@typescript-eslint/naming-convention": "off",
+    // назви useInitilization
+    "prefer-arrow-callback": "off",
+    // useEffect
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    // компонент в пропсах
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    // щоб можна використати або
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    // щоб можна експорт default
+    "no-restricted-exports": "off",
+    // можна і const
+    "react/function-component-definition": "off",
+    // Promise-returning function provided to attribute where a void return was expected
+    "@typescript-eslint/no-misused-promises": "off",
+    // Arrow function not allowed as declaration in global/top-level-module
+    "@getify/proper-arrows/where": "off",
+    // Щоб можна було провіряти навіть те в чому впевнений eslint
+    "@typescript-eslint/no-unnecessary-condition": "off",
+    // Щоб можна використати
+    "@typescript-eslint/consistent-type-definitions": "off"
+  }
+}

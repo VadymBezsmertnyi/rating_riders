@@ -1,2 +1,53 @@
-.container {
+.container {}
+
+.ratingContainer {
+}
+.rating {
+  transition: width .5s;
+}
+.ratingSelect {
+  color: #9790eb;
+}
+
+.avatarContainer {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  padding: 2px;
+  border: solid 2px white;
+  border-radius: 40px;
+}
+.avatarSelect {
+  border: solid 2px #9790eb;
+}
+
+.details {}
+.info {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  color: #408ae0;
+  line-height: 16px;
+}
+.nameContainer {
+  white-space: nowrap;
+}
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.infoPartition {
+  width: 2px;
+  height: 12px;
+  background: #408ae0;
+}
+
+.penalty {
+  color: #909499;
+}
+.penaltySelect {
+  color: #fead67;
 }
