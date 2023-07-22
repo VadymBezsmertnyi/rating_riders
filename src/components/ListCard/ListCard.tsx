@@ -32,7 +32,7 @@ const ListCard = () => {
   }, [dispatch, riders.length]);
 
   const onSelect = (numberRating: number) => {
-    setSelect(numberRating);
+    setSelect(state => (state !== numberRating ? numberRating : null));
   };
 
   const handleScroll = () => {

@@ -6,7 +6,7 @@
   transition: width .5s;
 }
 .ratingSelect {
-  color: #9790eb;
+  color: var(--color-select);
 }
 
 .avatarContainer {
@@ -20,7 +20,7 @@
   border-radius: 40px;
 }
 .avatarSelect {
-  border: solid 2px #9790eb;
+  border: solid 2px var(--color-select);
 }
 
 .details {}
@@ -28,7 +28,7 @@
   display: flex;
   align-items: baseline;
   gap: 8px;
-  color: #408ae0;
+  color: var(--color-info);
   line-height: 16px;
 }
 .nameContainer {
@@ -42,12 +42,12 @@
 .infoPartition {
   width: 2px;
   height: 12px;
-  background: #408ae0;
+  background: var(--color-info);
 }
 
 .penalty {
-  color: #909499;
+  color: var(--color-penalty);
 }
 .penaltySelect {
-  color: #fead67;
+  color: var(--color-penalty-select);
 }
